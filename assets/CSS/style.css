@@ -1,18 +1,246 @@
-/* Error: unmatched "}".
- *    ,
- * 19 | }
- *    | ^
- *    '
- *   SASS/pages/_homepage.scss 19:1  @import
- *   main.scss 8:9                   root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: unmatched "}".\a    \2577 \a 19 \2502  }\a    \2502  ^\a    \2575 \a   SASS/pages/_homepage.scss 19:1  @import\a   main.scss 8:9                   root stylesheet';
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: Arial;
+}
+
+a {
+  color: #ffc904;
+  text-decoration: none;
+}
+
+.main-legale {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 10%;
+}
+
+.legale-bloc {
+  margin-bottom: 2%;
+}
+
+.btn {
+  width: 18rem;
+  margin: 3rem auto 5rem auto;
+  padding: 0.5rem;
+  color: #ffc904;
+  background-color: #579c87;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: 150%;
+}
+
+.note {
+  width: 15%;
+}
+
+.topBanniere {
+  background-color: #579c87;
+  height: 7rem;
+}
+
+.title {
+  width: 25%;
+}
+
+.logo {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.bottomBanniere {
+  background-color: #579c87;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: fixed;
+}
+
+.mentions,
+.contactNous {
+  color: #ffc904;
+}
+
+body {
+  font-family: Arial;
+}
+
+a {
+  color: #ffc904;
+  text-decoration: none;
+}
+
+.main-legale {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 10%;
+}
+
+.legale-bloc {
+  margin-bottom: 2%;
+}
+
+.menuBloc {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50rem;
+  margin: 3rem auto;
+}
+.menuBloc .menu {
+  width: 18rem;
+  height: 25rem;
+  margin: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  box-shadow: grey 1px 1px 5px;
+}
+
+.menu1 {
+  background-color: #fcdfdb;
+}
+.menu1 .menu-title {
+  padding-bottom: 5%;
+}
+.menu1 .lanote {
+  color: #3c1218;
+  font-family: "Ma Shan Zheng";
+  font-size: 30px;
+}
+.menu1 .menu-menu {
+  font-size: 40px;
+  color: #3c1218;
+  font-family: "Ma Shan Zheng";
+}
+
+.menu2 {
+  background-color: #fff5fe;
+}
+.menu2 .lechic {
+  background: linear-gradient(to right, #d8852e, #905bfd);
+  font-family: "Croissant One";
+  font-size: 20px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 5%;
+}
+.menu2 .menu-menu {
+  font-size: 30px;
+  color: #c77412;
+  font-family: "Croissant One";
+}
+
+.menu3 {
+  background-color: #f9f9f9;
+}
+.menu3 .ledelice {
+  background: linear-gradient(to right, #0431df, #51a5fa);
+  font-family: "Dancing Script";
+  font-size: 30px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 5%;
+}
+.menu3 .menu-menu {
+  font-size: 40px;
+  color: #0887fb;
+  font-family: "Dancing Script";
+}
+
+.menu4 {
+  background-color: #fdfffd;
+}
+.menu4 .lapalette {
+  background: linear-gradient(to right, #3d9339, #bfff7e);
+  font-family: "Kaushan Script";
+  font-size: 30px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 5%;
+}
+.menu4 .menu-menu {
+  font-size: 40px;
+  color: #72bf56;
+  font-family: "Kaushan Script";
+}
+
+.subTitle {
+  text-align: center;
+  padding: 3rem;
+}
+
+.mainMenu {
+  justify-content: center;
+  width: 60%;
+  margin: 3rem auto;
+}
+
+.subTitle,
+.mainMenu {
+  border: solid fuchsia 1px;
+}
+
+/*# sourceMappingURL=style.css.map */
