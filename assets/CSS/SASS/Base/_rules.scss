@@ -1,0 +1,16 @@
+$primary-color: #579c87;
+$secondary-color: #ffc904;
+$font-menu1: 'Ma Shan Zheng';
+$font-menu2: 'Croissant One';
+$font-menu3: 'Dancing Script';
+$font-menu4: 'Kaushan Script';
+$menu-shadow: grey 1px 1px 5px;
+
+body {
+  font-family: Arial;
+}
+
+a {
+  color: $secondary-color;
+  text-decoration: none;
+}

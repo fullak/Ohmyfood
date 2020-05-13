@@ -1,0 +1,16 @@
+.bottomBanniere {
+  background-color: $primary-color;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: fixed;
+}
+
+.mentions,
+.contactNous {
+  color: $secondary-color;
+}

@@ -1,0 +1,81 @@
+@import "../base/rules";
+@import "../utils/mixin";
+
+.menuBloc {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50rem;
+  margin: 3rem auto;
+    .menu {
+      width: 18rem;
+      height: 25rem;
+      margin: 2rem 2rem;
+      @include home-menu;
+      box-shadow: $menu-shadow;
+      }
+     }
+}
+
+.menu1 {
+  background-color: #fcdfdb;
+    .menu-title {
+      padding-bottom: 5%;
+    }
+      .lanote {
+        color: #3c1218;
+        font-family: $font-menu1;
+        font-size: 30px;
+      }
+      .menu-menu {
+        font-size: 40px;
+        color: #3c1218;
+        font-family: $font-menu1;
+      }
+}
+
+.menu2 {
+  background-color: #fff5fe;
+    .lechic {
+      background:linear-gradient(to right, #d8852e, #905bfd);
+      font-family: $font-menu2;
+      font-size: 20px;
+      @include box-menu;
+      }
+    .menu-menu {
+      font-size: 30px;
+      color: #c77412;
+      font-family: $font-menu2;
+      }
+}
+
+.menu3 {
+  background-color: #f9f9f9;
+    .ledelice {
+      background:linear-gradient(to right, #0431df, #51a5fa);
+      font-family: $font-menu3;
+      font-size: 30px;
+      @include box-menu;
+    }
+    .menu-menu {
+      font-size: 40px;
+      color: #0887fb;
+      font-family: $font-menu3;
+     }
+}
+
+.menu4 {
+  background-color: #fdfffd;
+    .lapalette {
+      background:linear-gradient(to right, #3d9339, #bfff7e);
+      font-family: $font-menu4;
+      font-size: 30px;
+      @include box-menu;
+    }
+    .menu-menu {
+      font-size: 40px;
+      color: #72bf56;
+      font-family: $font-menu4;
+    }
+}
