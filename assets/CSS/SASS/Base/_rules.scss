@@ -1,6 +1,8 @@
 $primary-color: #579c87;
 $secondary-color: #ffc904;
+$menu1-color: #fcdfdb;
 $font-menu1: 'Ma Shan Zheng';
+$font-menu1-detail: 'Caveat';
 $font-menu2: 'Croissant One';
 $font-menu3: 'Dancing Script';
 $font-menu4: 'Kaushan Script';
@@ -13,4 +15,14 @@ body {
 a {
   color: $secondary-color;
   text-decoration: none;
+}
+
+.main-legale {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 10%;
+}
+
+.legale-bloc {
+  margin-bottom: 2%;
 }

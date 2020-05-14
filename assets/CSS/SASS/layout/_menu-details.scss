@@ -1,0 +1,88 @@
+.subTitle {
+  text-align: center;
+  padding: 3rem 3rem 2rem 3rem;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.mainMenu {
+  background-color: $menu1-color;
+  padding: 2rem 5rem;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto 10rem auto ;
+  box-shadow: $menu-shadow;
+}
+
+.menu-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 40%;
+  font-family: $font-menu1;
+  font-size: 50px;
+  margin-top: 5%;
+    .menu-logo-note {
+      width: 25%;
+      margin-left: auto;
+      margin-right: auto;
+     }
+}
+
+.bloc {
+  width: 100%;
+  margin-top: 10%;
+  .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: $font-menu1-detail;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  .separations {
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+.bloc-details {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-family: $font-menu1-detail;
+  font-size: 30px;
+  justify-content: space-between;
+    .bloc-liste {
+      width: 100%;
+    }
+    .item {
+      margin-top: 2%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+    }
+}
+
+.menu-bottom {
+  display: flex;
+  flex-direction: row;
+  font-family: $font-menu1;
+  font-size: 50px;
+  justify-content: center;
+  margin: 10% 0;
+    .details-subtitle {
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .menu-logo-note {
+      width: 8%;
+    }
+}
+
+
+

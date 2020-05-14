@@ -6,6 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -121,6 +122,92 @@ a {
   color: #ffc904;
 }
 
+.subTitle {
+  text-align: center;
+  padding: 3rem 3rem 2rem 3rem;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.mainMenu {
+  background-color: #fcdfdb;
+  padding: 2rem 5rem;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto 10rem auto;
+  box-shadow: grey 1px 1px 5px;
+}
+
+.menu-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 40%;
+  font-family: "Ma Shan Zheng";
+  font-size: 50px;
+  margin-top: 5%;
+}
+.menu-details .menu-logo-note {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bloc {
+  width: 100%;
+  margin-top: 10%;
+}
+.bloc .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Caveat";
+  font-size: 40px;
+  font-weight: bolder;
+}
+.bloc .separations {
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.bloc-details {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-family: "Caveat";
+  font-size: 30px;
+  justify-content: space-between;
+}
+.bloc-details .bloc-liste {
+  width: 100%;
+}
+.bloc-details .item {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.menu-bottom {
+  display: flex;
+  flex-direction: row;
+  font-family: "Ma Shan Zheng";
+  font-size: 50px;
+  justify-content: center;
+  margin: 10% 0;
+}
+.menu-bottom .details-subtitle {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.menu-bottom .menu-logo-note {
+  width: 8%;
+}
+
 body {
   font-family: Arial;
 }
@@ -225,22 +312,6 @@ a {
   font-size: 40px;
   color: #72bf56;
   font-family: "Kaushan Script";
-}
-
-.subTitle {
-  text-align: center;
-  padding: 3rem;
-}
-
-.mainMenu {
-  justify-content: center;
-  width: 60%;
-  margin: 3rem auto;
-}
-
-.subTitle,
-.mainMenu {
-  border: solid fuchsia 1px;
 }
 
 /*# sourceMappingURL=style.css.map */

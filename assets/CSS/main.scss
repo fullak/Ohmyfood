@@ -5,10 +5,5 @@
 @import "SASS/components/images";
 @import "SASS/layout/header";
 @import "SASS/layout/footer";
+@import "SASS/layout/menu-details";
 @import "SASS/pages/homepage";
-@import "SASS/pages/menu-details";
-
-.subTitle,
-.mainMenu {
-  border: solid fuchsia 1px;
-}
