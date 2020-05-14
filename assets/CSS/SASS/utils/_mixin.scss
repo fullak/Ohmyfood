@@ -10,3 +10,18 @@
   -webkit-text-fill-color: transparent;
   padding-bottom: 5%;
 }
+
+@mixin title-menu2 {
+  background:linear-gradient(to right, #d8852e, #905bfd);
+  font-family: $font-menu2;
+}
+
+@mixin title-menu3 {
+  background:linear-gradient(to right, #0431df, #51a5fa);
+  font-family: $font-menu3;
+}
+
+@mixin title-menu4 {
+  background:linear-gradient(to right, #3d9339, #bfff7e);
+  font-family: $font-menu4;
+}

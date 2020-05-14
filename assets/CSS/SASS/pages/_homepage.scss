@@ -35,12 +35,11 @@
 }
 
 .menu2 {
-  background-color: #fff5fe;
+  background-color: $menu2-color;
     .lechic {
-      background:linear-gradient(to right, #d8852e, #905bfd);
-      font-family: $font-menu2;
-      font-size: 20px;
+      @include title-menu2;
       @include box-menu;
+      font-size: 20px;
       }
     .menu-menu {
       font-size: 30px;
@@ -50,12 +49,11 @@
 }
 
 .menu3 {
-  background-color: #f9f9f9;
+  background-color: $menu3-color;
     .ledelice {
-      background:linear-gradient(to right, #0431df, #51a5fa);
-      font-family: $font-menu3;
-      font-size: 30px;
+      @include title-menu3;
       @include box-menu;
+      font-size: 30px;
     }
     .menu-menu {
       font-size: 40px;
@@ -65,12 +63,11 @@
 }
 
 .menu4 {
-  background-color: #fdfffd;
+  background-color: $menu4-color;
     .lapalette {
-      background:linear-gradient(to right, #3d9339, #bfff7e);
-      font-family: $font-menu4;
-      font-size: 30px;
+      @include title-menu4;
       @include box-menu;
+      font-size: 30px;
     }
     .menu-menu {
       font-size: 40px;

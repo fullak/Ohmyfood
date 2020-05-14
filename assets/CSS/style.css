@@ -7,6 +7,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -55,10 +57,6 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
-
-body {
-  font-family: Arial;
 }
 
 a {
@@ -122,96 +120,6 @@ a {
   color: #ffc904;
 }
 
-.subTitle {
-  text-align: center;
-  padding: 3rem 3rem 2rem 3rem;
-  font-weight: bolder;
-  font-size: 50px;
-}
-
-.mainMenu {
-  background-color: #fcdfdb;
-  padding: 2rem 5rem;
-  justify-content: center;
-  width: 60%;
-  margin: 0 auto 10rem auto;
-  box-shadow: grey 1px 1px 5px;
-}
-
-.menu-details {
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  width: 40%;
-  font-family: "Ma Shan Zheng";
-  font-size: 50px;
-  margin-top: 5%;
-}
-.menu-details .menu-logo-note {
-  width: 25%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.bloc {
-  width: 100%;
-  margin-top: 10%;
-}
-.bloc .title {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-family: "Caveat";
-  font-size: 40px;
-  font-weight: bolder;
-}
-.bloc .separations {
-  height: 100%;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.bloc-details {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  font-family: "Caveat";
-  font-size: 30px;
-  justify-content: space-between;
-}
-.bloc-details .bloc-liste {
-  width: 100%;
-}
-.bloc-details .item {
-  margin-top: 2%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.menu-bottom {
-  display: flex;
-  flex-direction: row;
-  font-family: "Ma Shan Zheng";
-  font-size: 50px;
-  justify-content: center;
-  margin: 10% 0;
-}
-.menu-bottom .details-subtitle {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-.menu-bottom .menu-logo-note {
-  width: 8%;
-}
-
-body {
-  font-family: Arial;
-}
-
 a {
   color: #ffc904;
   text-decoration: none;
@@ -269,10 +177,10 @@ a {
 .menu2 .lechic {
   background: linear-gradient(to right, #d8852e, #905bfd);
   font-family: "Croissant One";
-  font-size: 20px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding-bottom: 5%;
+  font-size: 20px;
 }
 .menu2 .menu-menu {
   font-size: 30px;
@@ -286,10 +194,10 @@ a {
 .menu3 .ledelice {
   background: linear-gradient(to right, #0431df, #51a5fa);
   font-family: "Dancing Script";
-  font-size: 30px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding-bottom: 5%;
+  font-size: 30px;
 }
 .menu3 .menu-menu {
   font-size: 40px;
@@ -303,15 +211,411 @@ a {
 .menu4 .lapalette {
   background: linear-gradient(to right, #3d9339, #bfff7e);
   font-family: "Kaushan Script";
-  font-size: 30px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding-bottom: 5%;
+  font-size: 30px;
 }
 .menu4 .menu-menu {
   font-size: 40px;
   color: #72bf56;
   font-family: "Kaushan Script";
+}
+
+.subTitle {
+  text-align: center;
+  padding: 3rem 3rem 2rem 3rem;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.mainMenu {
+  padding: 2rem 5rem;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto 10rem auto;
+  box-shadow: grey 1px 1px 5px;
+}
+
+.menu-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 5%;
+}
+.menu-details .menu-logo-note {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bloc {
+  width: 100%;
+  margin-top: 10%;
+}
+.bloc .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.bloc-details {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  justify-content: space-between;
+}
+.bloc-details .bloc-liste {
+  width: 100%;
+}
+.bloc-details .item {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#menu1 .mainMenu {
+  background-color: #fcdfdb;
+}
+#menu1 .menu-details {
+  font-family: "Ma Shan Zheng";
+  width: 40%;
+}
+#menu1 .bloc .title {
+  font-family: "Caveat";
+}
+#menu1 .bloc-details {
+  font-family: "Caveat";
+}
+#menu1 .separations {
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#menu1 .menu-bottom {
+  display: flex;
+  flex-direction: row;
+  font-family: "Ma Shan Zheng";
+  font-size: 50px;
+  justify-content: center;
+  margin: 10% 0;
+}
+#menu1 .menu-bottom .details-subtitle {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#menu1 .menu-bottom .menu-logo-note {
+  width: 8%;
+}
+
+.subTitle {
+  text-align: center;
+  padding: 3rem 3rem 2rem 3rem;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.mainMenu {
+  padding: 2rem 5rem;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto 10rem auto;
+  box-shadow: grey 1px 1px 5px;
+}
+
+.menu-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 5%;
+}
+.menu-details .menu-logo-note {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bloc {
+  width: 100%;
+  margin-top: 10%;
+}
+.bloc .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.bloc-details {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  justify-content: space-between;
+}
+.bloc-details .bloc-liste {
+  width: 100%;
+}
+.bloc-details .item {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#menu4 .mainMenu {
+  background-color: #fdfffd;
+}
+#menu4 .mainMenu .menu-details {
+  width: 100%;
+}
+#menu4 .details-subtitle {
+  background: linear-gradient(to right, #3d9339, #bfff7e);
+  font-family: "Kaushan Script";
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 5%;
+  font-size: 60px;
+}
+#menu4 .separations {
+  width: 232px;
+  height: 11.2px;
+  margin: auto 0;
+}
+#menu4 .subtitle-menu4 {
+  font-family: "Caveat";
+}
+#menu4 .bloc-liste {
+  width: 85%;
+  font-size: 25px;
+  font-family: "Caveat";
+  margin: 3rem 5rem 0 5rem;
+}
+#menu4 .menu-bottom {
+  margin-bottom: 10rem;
+}
+
+.subTitle {
+  text-align: center;
+  padding: 3rem 3rem 2rem 3rem;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.mainMenu {
+  padding: 2rem 5rem;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto 10rem auto;
+  box-shadow: grey 1px 1px 5px;
+}
+
+.menu-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 5%;
+}
+.menu-details .menu-logo-note {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bloc {
+  width: 100%;
+  margin-top: 10%;
+}
+.bloc .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.bloc-details {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  justify-content: space-between;
+}
+.bloc-details .bloc-liste {
+  width: 100%;
+}
+.bloc-details .item {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#menu2 .mainMenu {
+  background-color: #fff5fe;
+}
+#menu2 .menu-details {
+  width: 100%;
+}
+#menu2 .menu-details .details-subtitle {
+  background: linear-gradient(to right, #d8852e, #905bfd);
+  font-family: "Croissant One";
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 5%;
+  margin-top: 5rem;
+}
+#menu2 .bloc .title {
+  width: 100%;
+}
+#menu2 .bloc .title .separations {
+  width: 222px;
+  height: 14px;
+}
+#menu2 .bloc .title .subtitle1-menu2 {
+  color: #c67412;
+  font-size: 25px;
+}
+#menu2 .bloc .title .subtitle2-menu2 {
+  color: #a56799;
+  font-size: 25px;
+}
+#menu2 .bloc .title .subtitle3-menu2 {
+  color: #6e4ccc;
+  font-size: 25px;
+}
+#menu2 .orange-col {
+  color: #c67412;
+  margin-top: 2rem;
+}
+#menu2 .violet-col {
+  color: #a56799;
+  margin-top: 2rem;
+}
+#menu2 .blue-col {
+  color: #6e4ccc;
+  margin-top: 2rem;
+}
+#menu2 .bloc-liste {
+  margin: 2rem 5rem;
+  font-size: 28px;
+  font-family: "Markazi Text";
+}
+#menu2 .menu-bottom {
+  margin-bottom: 10rem;
+}
+
+.subTitle {
+  text-align: center;
+  padding: 3rem 3rem 2rem 3rem;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.mainMenu {
+  padding: 2rem 5rem;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto 10rem auto;
+  box-shadow: grey 1px 1px 5px;
+}
+
+.menu-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 5%;
+}
+.menu-details .menu-logo-note {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bloc {
+  width: 100%;
+  margin-top: 10%;
+}
+.bloc .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.bloc-details {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  justify-content: space-between;
+}
+.bloc-details .bloc-liste {
+  width: 100%;
+}
+.bloc-details .item {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#menu3 .mainMenu {
+  background-color: #edefef;
+}
+#menu3 .menu-details {
+  width: 100%;
+}
+#menu3 .menu-details .details-subtitle {
+  background: linear-gradient(to right, #0431df, #51a5fa);
+  font-family: "Dancing Script";
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 5%;
+  font-size: 80px;
+}
+#menu3 .bloc {
+  font-family: "Handlee";
+}
+#menu3 .bloc .title {
+  font-size: 27px;
+}
+#menu3 .bloc .separations {
+  width: 280px;
+  height: 12px;
+  margin: auto;
+}
+#menu3 .bloc-liste {
+  padding: 2rem 4rem 0 4rem;
+}
+#menu3 .bloc-liste .item {
+  font-size: 24px;
+  margin-bottom: 2rem;
+}
+#menu3 .menu-bottom {
+  padding-bottom: 10rem;
 }
 
 /*# sourceMappingURL=style.css.map */
