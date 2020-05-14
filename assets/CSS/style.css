@@ -60,7 +60,7 @@ table {
 }
 
 a {
-  color: #ffc904;
+  color: #fcca46;
   text-decoration: none;
 }
 
@@ -78,7 +78,7 @@ a {
   width: 18rem;
   margin: 3rem auto 5rem auto;
   padding: 0.5rem;
-  color: #ffc904;
+  color: #fcca46;
   background-color: #579c87;
   border-radius: 0.5rem;
   text-align: center;
@@ -117,11 +117,11 @@ a {
 
 .mentions,
 .contactNous {
-  color: #ffc904;
+  color: #fcca46;
 }
 
 a {
-  color: #ffc904;
+  color: #fcca46;
   text-decoration: none;
 }
 
@@ -616,6 +616,64 @@ a {
 }
 #menu3 .menu-bottom {
   padding-bottom: 10rem;
+}
+
+.btn {
+  width: 18rem;
+  margin: 3rem auto 5rem auto;
+  padding: 0.5rem;
+  color: #fcca46;
+  background-color: #579c87;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: 150%;
+}
+
+.main-form {
+  width: 60%;
+  margin: auto;
+}
+
+.form-contact {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 3rem auto;
+}
+.form-contact .form-subtitle {
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.form-contact .formulaire {
+  margin: auto;
+  background-color: #579c87;
+  border-radius: 2rem;
+  padding: 1rem;
+  box-shadow: grey 1px 1px 5px;
+}
+.form-contact .formulaire .col-left {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1rem;
+}
+.form-contact .formulaire #name,
+.form-contact .formulaire #mail {
+  width: 400px;
+  background-color: #fff2d0;
+}
+.form-contact .formulaire #msg {
+  width: 400px;
+  height: 100px;
+  background-color: #fff2d0;
+}
+
+.form-btn {
+  display: block;
+  margin: 1rem auto;
+  border: black solid 1px;
+  box-shadow: #fcca46 2px 3px 2px;
 }
 
 /*# sourceMappingURL=style.css.map */
