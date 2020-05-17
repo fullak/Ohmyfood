@@ -1,0 +1,167 @@
+@media (max-width: 900px) {
+
+    .menuBloc {
+        width: fit-content;
+    }
+
+    .topBanniere {
+        width: 100%;
+
+        .title {
+            width: 300px;
+            margin: auto;
+        }
+    }
+
+    #menu1,
+    #menu2,
+    #menu3,
+    #menu4 {
+
+
+
+        .subTitle {
+            font-size: 30px;
+        }
+
+        .mainMenu {
+            width: 90%;
+            padding: 0;
+        }
+
+        .menu-details {
+            width: 90%;
+        }
+
+
+
+        .bloc {
+            width: 90%;
+            padding: 0 5%;
+
+            .title {
+                font-size: 20px;
+                text-align: center;
+
+                .separations {
+                    width: 80px;
+                }
+            }
+
+            .bloc-details {
+                width: 80%;
+                margin: auto;
+                font-size: 20px;
+                padding-top: 3%;
+
+                .item {
+                    width: 100%;
+                    margin-bottom: 1rem;
+
+                    .item-txt {
+                        width: 70%;
+                    }
+                }
+            }
+        }
+
+
+        .menu-details {
+            .menu-logo-note {
+                width: 40px;
+                margin-top: 2rem;
+            }
+        }
+
+        .menu-bottom {
+            font-size: 30px;
+            padding-bottom: 5rem;
+
+            .menu-logo-note {
+                margin: 0 1rem;
+            }
+        }
+
+
+
+    }
+
+    #menu2 {
+        .details-subtitle {
+            font-size: 25px;
+        }
+
+        .bloc {
+            width: auto;
+            padding: 0;
+
+            .separations {
+                margin: auto;
+            }
+
+            .bloc-details {
+                width: auto;
+                margin: 0;
+
+                .bloc-liste {
+                    margin: 0 2rem;
+
+                }
+
+
+            }
+        }
+    }
+
+    #menu3 {
+
+        .mainMenu {
+            .details-subtitle {
+                font-size: 40px;
+                margin-top: 2rem;
+            }
+
+            .bloc {
+                width: auto;
+                padding: 0 1rem;
+
+                .bloc-details {
+                    width: 100%;
+                }
+
+                .bloc-liste {
+                    padding-left: 1rem;
+
+                    .item-txt {
+                        width: 80%;
+                    }
+
+                    .item-price {
+                        width: 10%;
+                    }
+
+                }
+            }
+        }
+    }
+
+    #menu4 {
+
+        .details-subtitle {
+            font-size: 40px;
+            margin-top: 2rem;
+        }
+
+        .bloc-liste {
+            width: auto;
+            margin: 0;
+
+            .item-txt,
+            .item-price {
+                margin-top: 1rem;
+            }
+        }
+
+    }
+}
+

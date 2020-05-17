@@ -93,14 +93,12 @@ a {
   background-color: #579c87;
   height: 7rem;
 }
-
-.title {
-  width: 25%;
-}
-
-.logo {
+.topBanniere .logo {
   padding-top: 1rem;
   text-align: center;
+}
+.topBanniere .title {
+  width: 25%;
 }
 
 .bottomBanniere {
@@ -222,66 +220,6 @@ a {
   font-family: "Kaushan Script";
 }
 
-.subTitle {
-  text-align: center;
-  padding: 3rem 3rem 2rem 3rem;
-  font-weight: bolder;
-  font-size: 50px;
-}
-
-.mainMenu {
-  padding: 2rem 5rem;
-  justify-content: center;
-  width: 60%;
-  margin: 0 auto 10rem auto;
-  box-shadow: grey 1px 1px 5px;
-}
-
-.menu-details {
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  font-size: 50px;
-  margin-top: 5%;
-}
-.menu-details .menu-logo-note {
-  width: 25%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.bloc {
-  width: 100%;
-  margin-top: 10%;
-}
-.bloc .title {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-size: 40px;
-  font-weight: bolder;
-}
-
-.bloc-details {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  font-size: 30px;
-  justify-content: space-between;
-}
-.bloc-details .bloc-liste {
-  width: 100%;
-}
-.bloc-details .item {
-  margin-top: 2%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-}
-
 #menu1 .mainMenu {
   background-color: #fcdfdb;
 }
@@ -297,6 +235,7 @@ a {
 }
 #menu1 .separations {
   height: 100%;
+  width: auto;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -314,158 +253,6 @@ a {
 }
 #menu1 .menu-bottom .menu-logo-note {
   width: 8%;
-}
-
-.subTitle {
-  text-align: center;
-  padding: 3rem 3rem 2rem 3rem;
-  font-weight: bolder;
-  font-size: 50px;
-}
-
-.mainMenu {
-  padding: 2rem 5rem;
-  justify-content: center;
-  width: 60%;
-  margin: 0 auto 10rem auto;
-  box-shadow: grey 1px 1px 5px;
-}
-
-.menu-details {
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  font-size: 50px;
-  margin-top: 5%;
-}
-.menu-details .menu-logo-note {
-  width: 25%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.bloc {
-  width: 100%;
-  margin-top: 10%;
-}
-.bloc .title {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-size: 40px;
-  font-weight: bolder;
-}
-
-.bloc-details {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  font-size: 30px;
-  justify-content: space-between;
-}
-.bloc-details .bloc-liste {
-  width: 100%;
-}
-.bloc-details .item {
-  margin-top: 2%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-}
-
-#menu4 .mainMenu {
-  background-color: #fdfffd;
-}
-#menu4 .mainMenu .menu-details {
-  width: 100%;
-}
-#menu4 .details-subtitle {
-  background: linear-gradient(to right, #3d9339, #bfff7e);
-  font-family: "Kaushan Script";
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  padding-bottom: 5%;
-  font-size: 60px;
-}
-#menu4 .separations {
-  width: 232px;
-  height: 11.2px;
-  margin: auto 0;
-}
-#menu4 .subtitle-menu4 {
-  font-family: "Caveat";
-}
-#menu4 .bloc-liste {
-  width: 85%;
-  font-size: 25px;
-  font-family: "Caveat";
-  margin: 3rem 5rem 0 5rem;
-}
-#menu4 .menu-bottom {
-  margin-bottom: 10rem;
-}
-
-.subTitle {
-  text-align: center;
-  padding: 3rem 3rem 2rem 3rem;
-  font-weight: bolder;
-  font-size: 50px;
-}
-
-.mainMenu {
-  padding: 2rem 5rem;
-  justify-content: center;
-  width: 60%;
-  margin: 0 auto 10rem auto;
-  box-shadow: grey 1px 1px 5px;
-}
-
-.menu-details {
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  font-size: 50px;
-  margin-top: 5%;
-}
-.menu-details .menu-logo-note {
-  width: 25%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.bloc {
-  width: 100%;
-  margin-top: 10%;
-}
-.bloc .title {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-size: 40px;
-  font-weight: bolder;
-}
-
-.bloc-details {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  font-size: 30px;
-  justify-content: space-between;
-}
-.bloc-details .bloc-liste {
-  width: 100%;
-}
-.bloc-details .item {
-  margin-top: 2%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
 }
 
 #menu2 .mainMenu {
@@ -522,66 +309,6 @@ a {
   margin-bottom: 10rem;
 }
 
-.subTitle {
-  text-align: center;
-  padding: 3rem 3rem 2rem 3rem;
-  font-weight: bolder;
-  font-size: 50px;
-}
-
-.mainMenu {
-  padding: 2rem 5rem;
-  justify-content: center;
-  width: 60%;
-  margin: 0 auto 10rem auto;
-  box-shadow: grey 1px 1px 5px;
-}
-
-.menu-details {
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  font-size: 50px;
-  margin-top: 5%;
-}
-.menu-details .menu-logo-note {
-  width: 25%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.bloc {
-  width: 100%;
-  margin-top: 10%;
-}
-.bloc .title {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-size: 40px;
-  font-weight: bolder;
-}
-
-.bloc-details {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  font-size: 30px;
-  justify-content: space-between;
-}
-.bloc-details .bloc-liste {
-  width: 100%;
-}
-.bloc-details .item {
-  margin-top: 2%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-}
-
 #menu3 .mainMenu {
   background-color: #edefef;
 }
@@ -616,6 +343,38 @@ a {
 }
 #menu3 .menu-bottom {
   padding-bottom: 10rem;
+}
+
+#menu4 .mainMenu {
+  background-color: #fdfffd;
+}
+#menu4 .mainMenu .menu-details {
+  width: 100%;
+}
+#menu4 .details-subtitle {
+  background: linear-gradient(to right, #3d9339, #bfff7e);
+  font-family: "Kaushan Script";
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 5%;
+  font-size: 60px;
+}
+#menu4 .separations {
+  width: 232px;
+  height: 11.2px;
+  margin: auto 0;
+}
+#menu4 .subtitle-menu4 {
+  font-family: "Caveat";
+}
+#menu4 .bloc-liste {
+  width: 85%;
+  font-size: 25px;
+  font-family: "Caveat";
+  margin: 3rem 5rem 0 5rem;
+}
+#menu4 .menu-bottom {
+  margin-bottom: 10rem;
 }
 
 .btn {
@@ -674,6 +433,217 @@ a {
   margin: 1rem auto;
   border: black solid 1px;
   box-shadow: #fcca46 2px 3px 2px;
+}
+
+.subTitle {
+  text-align: center;
+  padding: 3rem 3rem 2rem 3rem;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.mainMenu {
+  padding: 2rem 5rem;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto 10rem auto;
+  box-shadow: grey 1px 1px 5px;
+}
+
+.menu-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 5%;
+}
+.menu-details .menu-logo-note {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bloc {
+  width: 100%;
+  margin-top: 10%;
+}
+.bloc .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.bloc-details {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  justify-content: space-between;
+}
+.bloc-details .bloc-liste {
+  width: 100%;
+}
+.bloc-details .item {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.bloc-details .item .item-txt {
+  width: 80%;
+}
+
+@media (max-width: 900px) {
+  .menuBloc {
+    width: fit-content;
+  }
+
+  .topBanniere {
+    width: 100%;
+  }
+  .topBanniere .title {
+    width: 300px;
+    margin: auto;
+  }
+
+  #menu1 .subTitle,
+#menu2 .subTitle,
+#menu3 .subTitle,
+#menu4 .subTitle {
+    font-size: 30px;
+  }
+  #menu1 .mainMenu,
+#menu2 .mainMenu,
+#menu3 .mainMenu,
+#menu4 .mainMenu {
+    width: 90%;
+    padding: 0;
+  }
+  #menu1 .menu-details,
+#menu2 .menu-details,
+#menu3 .menu-details,
+#menu4 .menu-details {
+    width: 90%;
+  }
+  #menu1 .bloc,
+#menu2 .bloc,
+#menu3 .bloc,
+#menu4 .bloc {
+    width: 90%;
+    padding: 0 5%;
+  }
+  #menu1 .bloc .title,
+#menu2 .bloc .title,
+#menu3 .bloc .title,
+#menu4 .bloc .title {
+    font-size: 20px;
+    text-align: center;
+  }
+  #menu1 .bloc .title .separations,
+#menu2 .bloc .title .separations,
+#menu3 .bloc .title .separations,
+#menu4 .bloc .title .separations {
+    width: 80px;
+  }
+  #menu1 .bloc .bloc-details,
+#menu2 .bloc .bloc-details,
+#menu3 .bloc .bloc-details,
+#menu4 .bloc .bloc-details {
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    padding-top: 3%;
+  }
+  #menu1 .bloc .bloc-details .item,
+#menu2 .bloc .bloc-details .item,
+#menu3 .bloc .bloc-details .item,
+#menu4 .bloc .bloc-details .item {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  #menu1 .bloc .bloc-details .item .item-txt,
+#menu2 .bloc .bloc-details .item .item-txt,
+#menu3 .bloc .bloc-details .item .item-txt,
+#menu4 .bloc .bloc-details .item .item-txt {
+    width: 70%;
+  }
+  #menu1 .menu-details .menu-logo-note,
+#menu2 .menu-details .menu-logo-note,
+#menu3 .menu-details .menu-logo-note,
+#menu4 .menu-details .menu-logo-note {
+    width: 40px;
+    margin-top: 2rem;
+  }
+  #menu1 .menu-bottom,
+#menu2 .menu-bottom,
+#menu3 .menu-bottom,
+#menu4 .menu-bottom {
+    font-size: 30px;
+    padding-bottom: 5rem;
+  }
+  #menu1 .menu-bottom .menu-logo-note,
+#menu2 .menu-bottom .menu-logo-note,
+#menu3 .menu-bottom .menu-logo-note,
+#menu4 .menu-bottom .menu-logo-note {
+    margin: 0 1rem;
+  }
+
+  #menu2 .details-subtitle {
+    font-size: 25px;
+  }
+  #menu2 .bloc {
+    width: auto;
+    padding: 0;
+  }
+  #menu2 .bloc .separations {
+    margin: auto;
+  }
+  #menu2 .bloc .bloc-details {
+    width: auto;
+    margin: 0;
+  }
+  #menu2 .bloc .bloc-details .bloc-liste {
+    margin: 0 2rem;
+  }
+
+  #menu3 .mainMenu .details-subtitle {
+    font-size: 40px;
+    margin-top: 2rem;
+  }
+  #menu3 .mainMenu .bloc {
+    width: auto;
+    padding: 0 1rem;
+  }
+  #menu3 .mainMenu .bloc .bloc-details {
+    width: 100%;
+  }
+  #menu3 .mainMenu .bloc .bloc-liste {
+    padding-left: 1rem;
+  }
+  #menu3 .mainMenu .bloc .bloc-liste .item-txt {
+    width: 80%;
+  }
+  #menu3 .mainMenu .bloc .bloc-liste .item-price {
+    width: 10%;
+  }
+
+  #menu4 .details-subtitle {
+    font-size: 40px;
+    margin-top: 2rem;
+  }
+  #menu4 .bloc-liste {
+    width: auto;
+    margin: 0;
+  }
+  #menu4 .bloc-liste .item-txt,
+#menu4 .bloc-liste .item-price {
+    margin-top: 1rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
