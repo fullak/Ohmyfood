@@ -25,3 +25,7 @@
   background:linear-gradient(to right, #3d9339, #bfff7e);
   font-family: $font-menu4;
 }
+
+@mixin note {
+  background: linear-gradient(to right, #f15c61, #f6916a)
+}
