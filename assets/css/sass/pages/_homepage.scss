@@ -8,9 +8,11 @@
   justify-content: center;
   width: 50rem;
   margin: 3rem auto;
+
   :hover .menu-title {
     transform: scale(1.2);
-    }
+  }
+
   .menu {
     width: 18rem;
     height: 25rem;
@@ -26,90 +28,76 @@
   opacity: 0.9;
 }
 
-
-
-
 .menu1 {
   background-color: $menu1-color;
 
-    .menu-title {
-      padding-bottom: 5%;
-    }
-      .logo-note {
-        @include note;
-        @include box-menu;
-        font-size: 50px;
-      }
-      .lanote {
-        color: #3c1218;
-        font-family: $font-menu1;
-        font-size: 30px;
-      }
-      .menu-menu {
-        font-size: 40px;
-        color: #3c1218;
-        font-family: $font-menu1;
-      }
+  .menu-title {
+    padding-bottom: 5%;
+  }
+
+  .logo-note {
+    @include note;
+    @include box-menu;
+    font-size: 50px;
+  }
+
+  .lanote {
+    color: #3c1218;
+    font-family: $font-menu1;
+    font-size: 30px;
+  }
+
+  .menu-menu {
+    font-size: 40px;
+    color: #3c1218;
+    font-family: $font-menu1;
+  }
 }
 
 .menu2 {
   background-color: $menu2-color;
-    .lechic {
-      @include title-menu2;
-      @include box-menu;
-      font-size: 20px;
-      }
-    .menu-menu {
-      font-size: 30px;
-      color: #c77412;
-      font-family: $font-menu2;
-      }
+
+  .lechic {
+    @include title-menu2;
+    @include box-menu;
+    font-size: 20px;
+  }
+
+  .menu-menu {
+    font-size: 30px;
+    color: #c77412;
+    font-family: $font-menu2;
+  }
 }
 
 .menu3 {
   background-color: $menu3-color;
-    .ledelice {
-      @include title-menu3;
-      @include box-menu;
-      font-size: 30px;
-    }
-    .menu-menu {
-      font-size: 40px;
-      color: #0887fb;
-      font-family: $font-menu3;
-     }
+
+  .ledelice {
+    @include title-menu3;
+    @include box-menu;
+    font-size: 30px;
+  }
+
+  .menu-menu {
+    font-size: 40px;
+    color: #0887fb;
+    font-family: $font-menu3;
+  }
 }
 
 .menu4 {
   background-color: $menu4-color;
-    .lapalette {
-      @include title-menu4;
-      @include box-menu;
-      font-size: 30px;
-    }
-    .menu-menu {
-      font-size: 40px;
-      color: #72bf56;
-      font-family: $font-menu4;
-    }
-}
 
-.shake {
-          animation: shake 1.5s;
-          animation-iteration-count: infinite;
-}
+  .lapalette {
+    @include title-menu4;
+    @include box-menu;
+    font-size: 30px;
+  }
 
-.loading span {
-  animation-name: loading;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-fill-mode: both;
-}
-
-.loading span:nth-child(2) {
-  animation-delay: .2s;
-}
-
-.loading span:nth-child(3) {
-  animation-delay: .4s;
+  .menu-menu {
+    font-size: 40px;
+    color: #72bf56;
+    font-family: $font-menu4;
+  }
 }

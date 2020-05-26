@@ -14,3 +14,7 @@
 .contactNous {
   color: $secondary-color;
 }
+
+.shake:hover {
+  animation: shake .5s;
+}
