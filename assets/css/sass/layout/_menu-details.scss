@@ -11,9 +11,14 @@
   font-size: 50px;
 }
 
+.name:hover .trait {
+  animation: anim-sub .5s ease-out;
+  width: 100%;
+}
+
 .trait {
   border-bottom: solid black 3px;
-  animation: anim-sub 1.5s infinite ease-out;
+  width: 0;
 }
 
 .mainMenu {

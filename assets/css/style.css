@@ -134,7 +134,7 @@ a {
 }
 
 .shake:hover {
-  animation: shake 0.5s;
+  animation: shake 1s;
 }
 
 a {
@@ -316,13 +316,22 @@ a {
   color: #c67412;
   font-size: 25px;
 }
+#menu2 .bloc .title #orange-sub {
+  border-bottom: solid #c67412 3px;
+}
 #menu2 .bloc .title .subtitle2-menu2 {
   color: #a56799;
   font-size: 25px;
 }
+#menu2 .bloc .title #purple-sub {
+  border-bottom: solid #a56799 3px;
+}
 #menu2 .bloc .title .subtitle3-menu2 {
   color: #6e4ccc;
   font-size: 25px;
+}
+#menu2 .bloc .title #violet-sub {
+  border-bottom: solid #6e4ccc 3px;
 }
 #menu2 .orange-col {
   color: #c67412;
@@ -428,9 +437,14 @@ a {
   font-size: 50px;
 }
 
+.name:hover .trait {
+  animation: anim-sub 0.5s ease-out;
+  width: 100%;
+}
+
 .trait {
   border-bottom: solid black 3px;
-  animation: anim-sub 1.5s infinite ease-out;
+  width: 0;
 }
 
 .mainMenu {
@@ -682,9 +696,11 @@ a {
 @keyframes anim-sub {
   0% {
     width: 0;
+    opacity: 0;
   }
   100% {
     width: 100%;
+    opacity: 1;
   }
 }
 
