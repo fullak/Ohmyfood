@@ -140,12 +140,9 @@ a {
   justify-content: center;
   width: 50rem;
   margin: 3rem auto;
-  transform: scale(1);
-  transition: 0.1s ease-in-out;
-  transition-duration: 250ms;
 }
-.menuBloc :hover {
-  transform: scale(1.05);
+.menuBloc :hover .menu-title {
+  transform: scale(1.2);
 }
 .menuBloc .menu {
   width: 18rem;
@@ -156,6 +153,12 @@ a {
   justify-content: center;
   text-align: center;
   box-shadow: grey 1px 1px 5px;
+}
+
+.menu-title {
+  transform: scale(1);
+  transition: all 250ms ease-in-out;
+  opacity: 0.9;
 }
 
 .menu1 {

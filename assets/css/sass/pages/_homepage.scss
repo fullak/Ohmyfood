@@ -8,20 +8,26 @@
   justify-content: center;
   width: 50rem;
   margin: 3rem auto;
-  transform: scale(1);
-  transition: .1s ease-in-out;
-  transition-duration: 250ms;
-  :hover {
-  transform: scale(1.05);
-  }
-    .menu {
-      width: 18rem;
-      height: 25rem;
-      margin: 2rem 2rem;
-      @include home-menu;
-      box-shadow: $menu-shadow;
+  :hover .menu-title {
+    transform: scale(1.2);
     }
+  .menu {
+    width: 18rem;
+    height: 25rem;
+    margin: 2rem 2rem;
+    @include home-menu;
+    box-shadow: $menu-shadow;
+  }
 }
+
+.menu-title {
+  transform: scale(1);
+  transition: all 250ms ease-in-out;
+  opacity: 0.9;
+}
+
+
+
 
 .menu1 {
   background-color: $menu1-color;
